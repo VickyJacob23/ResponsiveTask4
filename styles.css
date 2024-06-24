@@ -69,7 +69,7 @@ header {
 
 
 .hero {
-    background: url(../images/Image\ 1.png) no-repeat;
+    background: url("./images/Image 1.png") no-repeat;
     background-size: cover;
     width: 1440px;
     height: 767px;
