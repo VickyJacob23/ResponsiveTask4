@@ -115,6 +115,7 @@ header {
 
 .future {
     width: 1280px;
+    height: 378px;
     top: 1020px;
     left: 80px;
     gap: 0px;
@@ -200,7 +201,7 @@ header {
         .icons__wrapper {
             max-width: 90%;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
             gap: 20px;
             margin: 0 auto;
         }
@@ -215,7 +216,7 @@ header {
     }
 }
 
-@media (max-width: 768px) {
+media (max-width: 768px) {
     .hero {
         background-position: center;
 
@@ -226,6 +227,7 @@ header {
     }
 
     .future {
+        
         width: 100%;
         gap: 0;
 
@@ -242,7 +244,12 @@ header {
         .features h2 {
             width: 100%;
             font-size: 2.5rem;
-        }    }
+        }
+
+        .icons__wrapper {
+                grid-template-columns: repeat(2, 1fr);
+        }
+    }
 
 }
 
@@ -257,6 +264,8 @@ header {
 
     .hero {
         max-width: 100%;
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
 
         .hero__container {
             padding: 1em 2em;
@@ -284,6 +293,7 @@ header {
 
         .pics img {
             width: 100%;
+            
         }
     }
 
@@ -298,12 +308,17 @@ header {
                 font-size: 2rem;
                 text-align: left;
 
+
+
                 .icons__wrapper {
                     display: grid;
                     justify-content: center;
                     align-items: center;
                 }
             }
+
+
+
         }
 
     }

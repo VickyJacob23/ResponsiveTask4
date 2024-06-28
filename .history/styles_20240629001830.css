@@ -76,7 +76,7 @@ header {
 
 
 .hero {
-    background: url(./images/Image\ 1.png) no-repeat;
+    background: url(../image/Image\ 1.png) no-repeat;
     background-size: cover;
     width: 100%;
     height: 767px;
@@ -115,6 +115,7 @@ header {
 
 .future {
     width: 1280px;
+    /* height: 378px; */
     top: 1020px;
     left: 80px;
     gap: 0px;
